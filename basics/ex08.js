@@ -14,6 +14,25 @@
 */
 
 //  écrire votre code sous ce commentaire
+const isEven = (_nb) => _nb%2 === 0 ? 1 : 0;
+
+const isAllEven = (_array) => {
+  let allEven = 0;
+  let counter = 0;
+  _array.map( x => {
+    
+    if (isEven(x) === 1) {
+      counter+= 1;
+    }
+       
+  });
+  if (counter === _array.length) {
+    allEven = 1
+  }
+
+  return allEven;
+  // pourquoi ça, ça ne foncitonne pas ? => counter === _array.length ? 1 : 0
+}
 
 /*
   Test 1

@@ -12,6 +12,16 @@
 */
 
 //  écrire votre code sous ce commentaire
+const shoppingList = (_arrayBasket) => {
+    let result = {};
+    for (let i = 0; i < _arrayBasket.length; i++) {
+        for (let j = 0; j < _arrayBasket[i].length; j++) {
+            result[_arrayBasket[i][j]] ? result[_arrayBasket[i][j]]++ : result[_arrayBasket[i][j]] = 1;
+        }
+    }
+
+    return result;
+}
 
 /*
   Test 1

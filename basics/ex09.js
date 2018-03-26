@@ -6,7 +6,19 @@
 */
 
 //  écrire votre code sous ce commentaire
+const isEven = (_nb) => _nb%2 === 0 ? 1 : 0;
 
+const boostedEvenAddition = (_array) =>  {
+	let total = 0;
+	_array.map( x => {
+
+		if (isEven(x) === 1) {
+			total+= x;
+		}
+
+	});
+	return total
+}
 /*
   Test 1
   Résultat attendu : 10

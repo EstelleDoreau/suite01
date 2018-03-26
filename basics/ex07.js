@@ -6,7 +6,7 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const boostedAddition = (_array) => _array.reduce((accumulateur, valeurCourante)=> accumulateur + valeurCourante,0)
 /*
   Test 1
   Résultat attendu : 15

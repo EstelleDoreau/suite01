@@ -8,7 +8,7 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const isEvenConcat = (_nb) => _nb%2 === 0 ? _nb + " est pair" : _nb + " est impair"
 /*
   Test 1
   Résultat attendu : "6 est pair"

@@ -13,7 +13,7 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const retParam = (_nb) => _nb
 /*
   Test 1
   Résultat attendu: "5"

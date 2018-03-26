@@ -11,7 +11,20 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const getHumanTypeByAge = (_nb) => {
+  switch (true) {
+    case (_nb >= 124 || _nb < 1) :
+      return "impossible... ou encore jamais vu";
+    case (_nb < 12) :
+      return "enfant";     
+    case (_nb >= 12 && _nb < 18) :
+      return "ado"; 
+    case (_nb >= 18 && _nb < 124) :
+      return "adulte"; 
+    default :
+      return "ce n'est pas un nombre";
+  }
+}
 /*
   Test 1
   Résultat attendu : "impossible... ou encore jamais vu"

@@ -12,7 +12,7 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const addition = (_nb1, _nb2) => _nb1 + _nb2
 /*
   Test 1
   Résultat attendu : 15
