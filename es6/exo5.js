@@ -10,6 +10,13 @@
 */
 
 //  écrire votre code sous ce commentaire
+const countTotalTimeSpent = (_arr) => {
+	const tab = [];
+	for (let i = 0; i < _arr.length; i++) {
+		tab.push(_arr[i].time);
+	}
+	return tab.reduce((accumulateur, valeurCourante) => accumulateur + valeurCourante,0)
+}
 
 /*
   Test 1

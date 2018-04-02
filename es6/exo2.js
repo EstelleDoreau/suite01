@@ -10,7 +10,7 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const filterEvenNumbers = (_arr) => _arr.filter(function (el) {return el%2 === 0});
 /*
   Test 1
   Résultat attendu : [2, 6, 8]

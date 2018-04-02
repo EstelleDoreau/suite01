@@ -10,6 +10,7 @@
 */
 
 //  écrire votre code sous ce commentaire
+const getAllLastnames = (_arr) => _arr.map(i => i.name ? i.name : "");
 
 /*
   Test 1

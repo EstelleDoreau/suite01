@@ -11,7 +11,7 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const checkVehicles = (_arr, _str) => _arr.includes(_str);
 /*
   Test 1
   Résultat attendu : true

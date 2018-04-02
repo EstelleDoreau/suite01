@@ -9,7 +9,7 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const verifyHumans = (_arr) => _arr.every(i => i.size.split('')[2] >= 6)
 /*
   Test 1
   Résultat attendu : true

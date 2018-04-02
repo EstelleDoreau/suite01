@@ -10,6 +10,18 @@
 */
 
 //  écrire votre code sous ce commentaire
+const sortMyWords = (_arr) => {
+  let result = [];
+  let words = [];
+  result = _arr.sort(function (a, b) {
+    return a.order - b.order;
+  }) ;
+
+  for(let i = 0; i <result.length; i++) {
+    words.push(result[i].word);
+  }
+  return words.join(' ');
+}
 
 /*
   Test 1

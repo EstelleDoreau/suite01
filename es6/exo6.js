@@ -10,7 +10,13 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const getTwoLastItems = (_str, _pattern) => {
+  const arr = _str.split(_pattern);
+  for (let i = 0; i = arr.length -2; i++) {
+    arr.shift();
+  }
+  return arr;
+}
 /*
   Test 1
   Résultat attendu : ["Thursday", "Friday"]
